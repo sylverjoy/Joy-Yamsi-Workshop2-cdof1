@@ -7,7 +7,7 @@ Q1 - Create a torrent containing this image
 We create the chaton.torrent file.
 torrent create Chaton.jpeg -o chaton.torrent
 
-![creating chaton torrent](report_images\image.png)
+![creating chaton torrent](report_images/image.png)
 
 
 Q2 - Now copy the image to a new directory named partition1 and create a torrent of this folder. What do you observe?
