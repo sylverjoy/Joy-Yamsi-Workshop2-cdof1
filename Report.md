@@ -22,7 +22,7 @@ We use the following command to access a torrent info :
 torrent info <nom_fichier>
 
 We observe that this torrent contains info about the folder structure as well as about the image. 
-We can say that when a we make a torrent of a folder, thsi torrent will contain info about itself and all the files and subfolders in it.
+We can say that when a we make a torrent of a folder, this torrent will contain info about itself and all the files and subfolders in it.
 
 
 Q3 - Copy the partition1 folder and then generate the associated torrent. What do you observe?
@@ -42,7 +42,7 @@ Q2 - Now upload partition1 to IPFS. What do you observe compared to the torrent 
 ![exploring partition folder](report_images/image-6.png)
 ![exploring partition folder](report_images/image-7.png)
 
-The folder(and its contents) has a unique hash and the content structure id preserved.
+The folder(and its contents) has a unique hash and the content structure is preserved.
 
 Q3 - Copy the partition1 folder and then generate the associated torrent. What do you observe?
 
