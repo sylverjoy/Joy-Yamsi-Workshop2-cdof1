@@ -14,9 +14,9 @@ Q2 - Now copy the image to a new directory named partition1 and create a torrent
 move Chaton.jpeg partition1
 torrent create partition1 -o chaton_partition1.torrent
 
-![creating partition torrent](report_images\image-1.png)
-![torrent info chaton.torrent](report_images\image-2.png)
-![torrent info chaton_partition1.torrent](report_images\image-3.png)
+![creating partition torrent](report_images/image-1.png)
+![torrent info chaton.torrent](report_images/image-2.png)
+![torrent info chaton_partition1.torrent](report_images/image-3.png)
 
 We use the following command to access a torrent info : 
 torrent info <nom_fichier>
@@ -34,13 +34,13 @@ The torrent is the same as the one created above with just the folder name chang
 # IPFS
 Q1 - Upload the previous image to IPFS.
 
-![uploaaded image to IPFS](report_images\image-4.png)
+![uploaaded image to IPFS](report_images/image-4.png)
 
 Q2 - Now upload partition1 to IPFS. What do you observe compared to the torrent part?
 
-![importer folder to IPFS](report_images\image-5.png)
-![exploring partition folder](report_images\image-6.png)
-![exploring partition folder](report_images\image-7.png)
+![importer folder to IPFS](report_images/image-5.png)
+![exploring partition folder](report_images/image-6.png)
+![exploring partition folder](report_images/image-7.png)
 
 The folder(and its contents) has a unique hash and the content structure id preserved.
 
@@ -50,14 +50,14 @@ Q3 - Copy the partition1 folder and then generate the associated torrent. What d
 # Upload files on IPFS using Pinata
 We generate the API Key, copy the provided code, modify the file path and run the script.
 
-![uploading to pinata](report_images\image-8.png)
+![uploading to pinata](report_images/image-8.png)
 
-![file on pinata](report_images\image-9.png)
+![file on pinata](report_images/image-9.png)
 
 # Leverage P2P to create a website hosted decentralizely.
 We use Pinata's service to create a github Actions workflow which automates updates on files on IPFS.
 
-![pinata automation](report_images\image-10.png)
+![pinata automation](report_images/image-10.png)
 
 ```
 
