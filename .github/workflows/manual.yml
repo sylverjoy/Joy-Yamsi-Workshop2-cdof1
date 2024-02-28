@@ -1,0 +1,18 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Doing test deploy to Pinata
+    steps:
+      - uses: actions/checkout@v2.1.0
+      - name: Pinata deploy action step
+        id: deploy
+        uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+        with:
+          pin-name: 'TESTING (v1.6.3)'
+          path: './.github/workflows/site2test'
+          pinata-api-key: cabd984b0d58831cf3ed
+          pinata-secret-api-key: 68eea59c2225da4a9444e6d9327434d12f420ea2ffd1cb1f89bd35a9dcb65ed7
+          verbose: true
+          remove-old: false
